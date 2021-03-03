@@ -1,0 +1,21 @@
+<app-top-bar></app-top-bar>
+<header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm">
+	<p class="h5 my-0 me-md-auto fw-normal">CATEGORIES</p>
+	<nav class="my-2 my-md-0 me-md-3">
+		<a class="p-2 text-dark" routerLink="/monitor"> Monitor</a> <br />
+		<a class="p-2 text-dark" routerLink="/haircare">Haircare</a> <br />
+		<a class="p-2 text-dark" routerLink="/tv">TV</a> <br />
+		<a class="p-2 text-dark" routerLink="/comics">Comics</a> <br />
+  </nav>
+</header>
+<like-box></like-box>
+<div class="container">
+	<router-outlet></router-outlet>
+</div>
+<share-buttons [theme]="'material-dark'" [include]="['whatsapp','telegram']" [show]="2" [size]="10"
+	[url]="'product.source'" [autoSetMeta]="false"></share-buttons>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

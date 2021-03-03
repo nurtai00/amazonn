@@ -1,0 +1,15 @@
+.ratings {
+  position: relative;
+  top: 10px;
+  right: 810px;
+}
+.row-2 {
+  position: relative;
+  bottom: 50px;
+  right: 100px;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
